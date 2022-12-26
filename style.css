@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+header a img {
+  width: 200px;
+  flex: 0 0 auto;
+  padding-left: 1rem;
+  opacity: 0.8;
+  margin-top: 0.4rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(94, 157, 216);
+}
+h1 {
+  flex: 1 1 auto;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  word-spacing: 20px;
+}
+.sign-in {
+  flex: 0 0 auto;
+  padding-right: 2rem;
+  padding-top: 0.6rem;
+}
+header .sign-in a {
+  color: #9cffae;
+  text-decoration: none;
+  font-weight: 800px;
+  letter-spacing: 2px;
+  font-size: larger;
+  font-weight: 600;
+}
+header .sign-in a:hover{
+    border-bottom: 2px solid rgb(190, 45, 64);
+}
+nav.navi {
+    position: sticky;
+  background-color: rgb(107, 142, 174);
+text-align: center;
+  padding: 1.5rem;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+  width: 100%;
+  }
+nav.navi a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 1000;
+}
+nav.navi a:hover{
+    color: rgb(29, 215, 72);
+}
+nav.banner img{
+    width: 100%;
+    max-height: calc(100vh - 207px);
+}
+nav.banner .hero{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+nav.banner .hero h4{
+    color: rgb(208, 20, 20);
+    font-size: smaller;
+}
+nav.banner .hero h2{
+    font-size: 40px;
+    color: rgb(208, 20, 20);
+}
+nav .hero button{
+    background-color: rgb(27, 123, 191);
+    padding: 10px;
+    border-radius: 33px;
+    color: white;
+    margin-top: 9px;
+    border: none;
+}
+nav .hero button:hover{
+    cursor: pointer;
+    color: rgb(37, 188, 30);
+    border-style: dotted;
+}
+p{
+    padding: 2rem;
+    text-align: justify;
+    font-weight: 500;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    background-color: rgb(20, 142, 190);
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 0.4rem;
+    }
+    .whatsapp:hover{
+        color: white;
+        cursor: pointer;
+        outline: 2px solid rgb(107, 142, 174);
+        outline-offset: 2px;
+    }
+.slack{
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+    font-size: 2rem;
+    background-color: rgb(20, 142, 190);
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 0.4rem;
+}
+.slack:hover{
+    color: white;
+        cursor: pointer;
+        outline: 2px solid rgb(107, 142, 174);
+        outline-offset: 2px;
+}
+
